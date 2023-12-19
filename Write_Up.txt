@@ -1,0 +1,42 @@
+Im a little confused on what to write for this so I am just gonna write both of what I think im supposed to do:
+
+I would give myself this grade for Program Integrity/Design:
+4 / 4
+4 / 4
+4 / 4
+4 / 4
+4 / 4
+2 / 3
+3 / 3
+0 / 3
+3 / 3
+2 / 2
+2 / 2
+0 / 2
+2 / 2
+Total score: 34/40.
+
+And heres my analysis of my code, just incase im supposed to write that
+
+For the html, I had 2 main blocks in the container, 1 for the Text that displays info about the words
+and 1 for the actual board and letter rack.
+
+I applied the css to make everything center of the page and look good.
+
+for the javascript here are the function I implemented:
+
+clear_letter_id(): Clears the letter IDs in the row_obj array.
+
+reset_word(): Empties the Scrabble rack, retrieves new tiles for the rack, updates the HTML for the current word and score, and prepares the drag-and-drop functionality.
+
+prepare_drop(): Makes each tile on the board droppable, handles the drop event, and out of bounds event.
+
+create_board(): Sets up the initial Scrabble board with 7 tiles.
+
+get_board_tiles(): Gets the total number of letters, and generates new tiles for the rack.
+
+calculate_word_score(): calculates the score of the word
+
+word_length(): gets the word length
+
+submit(): Updates the HTML for the last word and last score, Updates the total score and resets the word.
